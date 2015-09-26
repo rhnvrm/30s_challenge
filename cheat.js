@@ -1,0 +1,1 @@
+game.current_challenge.check(game.current_challenge.result)

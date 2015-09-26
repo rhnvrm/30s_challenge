@@ -1,3 +1,7 @@
+var superscripts = "⁰¹²³⁴⁵⁶⁷⁸⁹";
+var subscripts = "₀₁₂₃₄₅₆₇₈₉";
+
+
 var a = $('.challenge ').not('.finished').children('.move');
 var start = parseInt($('.challenge ').not('.finished').children('.start').children('.text')[0].innerHTML)
 for(i = 0; i < a.length; i++){
@@ -38,3 +42,6 @@ for(i = 0; i < a.length; i++){
 }
 
 console.log(start);
+
+game.current_challenge.check(start)
+
